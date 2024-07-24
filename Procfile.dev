@@ -1,3 +1,7 @@
-web: env RUBY_DEBUG_OPEN=true bin/rails server
+# this line is for local network access (there's also a line in 
+# /config/environments.development.rb where i added the line
+# config.hosts.clear)
+
+web: env RUBY_DEBUG_OPEN=true bin/rails server -b 0.0.0.0 -p 3000
 js: bun run build --watch
 css: bun run build:css --watch
