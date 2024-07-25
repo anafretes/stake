@@ -6,3 +6,6 @@ import { application } from "./application"
 
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
+
+import FormController from "./pwa/form_controller"
+import SyncController from "./pwa/sync_controller"
