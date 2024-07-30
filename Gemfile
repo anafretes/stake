@@ -58,3 +58,4 @@ group :test do
 end
 
 gem "cssbundling-rails", "~> 1.4"
+gem 'validates_timeliness', '~> 7.0.0.beta1'
