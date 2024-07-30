@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  scale: 9.99
+  measurement_type: MyString
+  date: 2024-07-26
+
+two:
+  scale: 9.99
+  measurement_type: MyString
+  date: 2024-07-26

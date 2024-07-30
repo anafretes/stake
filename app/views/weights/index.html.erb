@@ -1,0 +1,15 @@
+<% content_for :title, "Weights" %>
+
+<h1>Weights</h1>
+
+<div id="weights">
+  <% @weights.each do |weight| %>
+    <%= render weight %>
+    <p>
+      <%= link_to "Show this weight", weight %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New weight", new_weight_path %>
+<%= link_to "Home", root_path %>
